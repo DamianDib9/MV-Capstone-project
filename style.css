@@ -18,11 +18,23 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25)
     padding-left: 1rem;}
 
  #imgTitle {
-    padding: 5rem 0 2rem 1rem;
+    padding-top: 1rem ;
+    padding-left: 1rem;
     }
 
-#effectTitle {
- width: 98%;
+#helloIntro {
+    font-weight: 400;
+    color: #EC4327;
+}
+
+#h1Title{
+padding-left: 1rem;
+    font-weight: 900;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: url(img/backgrounds/titlebackground.jpeg);
 }
 
 #introContainer {
@@ -30,7 +42,7 @@ background-image: url(img/backgrounds/mainsection.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: 250%;
-
+padding-left: ;
 }
 
 #introP {
@@ -84,6 +96,10 @@ align-items: center;
 
 #cardsContainer {
     margin: 1rem;
+}
+
+.cardPicture {
+    max-height: 5rem  ;
 }
 
 .underline {
@@ -333,9 +349,20 @@ justify-content: center;
     margin-right: 15vw;
 }
 
+
+#helloIntro {
+}
+
+#h1Title {
+margin-left: 11%;
+font-size: 4rem;
+}
+
+
 .menuLinks {
     display: flex;
     margin-left: 10%;
+    cursor: pointer;
     }
 
  .menuLinks:hover {
@@ -360,6 +387,10 @@ white-space: nowrap;
     max-width: 55vw;
     margin-left: 12%;
     padding-bottom:0 ;
+}
+
+#helloIntro {
+    padding-top: 3rem;
 }
 
 #introP {
