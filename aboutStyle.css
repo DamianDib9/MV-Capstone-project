@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
 }
 
 
@@ -70,6 +71,19 @@ color: #141d32;
   display: none;
 }
 
+.a-menuLink:hover {
+  transform: scale(1.1);
+  color: #ec4327;
+}
+
+.a-menuLink:link{
+  text-decoration: none;
+}
+
+.a-menuLink:visited {
+  text-decoration: none;
+}
+
 #introContainer {
   background-image: url(img/backgrounds/mainsection.png);
   background-repeat: no-repeat;
@@ -121,7 +135,7 @@ color: #141d32;
 
 #letUsKnow {
   color: #7a7a7a;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-align: center;
   margin-left: 2rem;
@@ -212,15 +226,22 @@ color: #141d32;
 }
 
 #ccGlobalSummits {
+  font-size: 1.5rem;
   margin-bottom: 0.6rem;
 }
 
 #ccGlobalPsummits {
   margin: 1.5rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #838383;
+}
+
+#SeeThePast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #summitPics {
@@ -333,10 +354,16 @@ color: #141d32;
   .menuLinks {
     display: flex;
     margin-left: 10%;
+    cursor: pointer;
+    white-space: nowrap;
   }
 
-  .menuLinks:hover {
-    color: #ec4327;
+  .a-menuLink {
+    display: flex;
+    margin-left: 10%;
+    cursor: pointer;
+    color: #272A31;
+    transition: 300ms ease-in-out;
   }
 
   #campaignButton {
@@ -365,7 +392,7 @@ color: #141d32;
   #introPTextDesktop {
     display: block;
     width: 50vw;
-    font-size: 0.6em;
+    font-size: 0.9em;
     line-height: 20px;
     text-align: center;
   }
