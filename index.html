@@ -20,7 +20,7 @@
 
 <body>
 
-    <nav>
+     <nav>
         <div id="upperMenu">
             <ul id="grayUpperMenu">
                 <li><img class="grayUpperMenuIcons" src="img/logos/facebook.svg" alt="Facebook"></li>
@@ -34,12 +34,12 @@
             <ul id="menuLinksID">
                 <li class="menuButton"><img id="menuButton" src="img/icons/menu.svg" alt="menu button"></li>
                 <li class="menuLinks"><img id="mainLogo" src="img/logos/mainlogo.svg" alt="CC GLobal Logo"></li>
-                <li class="menuLinks">About</li>
-                <li class="menuLinks">Program</li>
-                <li class="menuLinks">Join</li>
-                <li class="menuLinks">Sponsor</li>
-                <li class="menuLinks">News</li>
-                <li id="campaignButton" class="menuLinks">CC Campaign</li>
+                <li class="menuLinks" href="about.html">About</li>
+                <li class="menuLinks" href="#">Program</li>
+                <li class="menuLinks" href="#">Join</li>
+                <li class="menuLinks" href="#">Sponsor</li>
+                <li class="menuLinks" href="#">News</li>
+                <li id="campaignButton" class="menuLinks" href="#">CC Campaign</li>
             </ul>
         </div>
     </nav>
@@ -47,18 +47,19 @@
     <main>
         <section id="introContainer">
             <h1 id="imgTitle">
-                <img id="effectTitle" src="img/text/effecttitle.svg" alt="Title image">
+                <p id="helloIntro" class="superTitle">"Hello! Sharing world"</p>
+                <h1 id="h1Title" class="superTitle">WORLD CHAMPIONS <br> CONFERENCE <br> FIFA</h1>  
             </h1>
 
-            <div id="introP">
-                <p class="introPText">A joyful celebration believing in the value of openness and sharing, creating a
+            <div id="introP" class="">
+                <p class="introPText">A joyful celebration of football believing in the value of fair play, creating a
                     positive change with
-                    people from over 80 countries is taking place in October, in Korea.</p>
+                    people from over 80 countries is taking place in October, in Argentina.</p>
             </div>
 
             <div id="dateLocationContainer">
-                <h2 id="dateP">2015.10.15(THU) ~ 16(FRI)</h2>
-                <h3 id="locationP"> @ National Museum of Karea, Art Center Nabi and more</h3>
+                <h2 id="dateP">2023.10.15(MON) ~ 19(WED)</h2>
+                <h3 id="locationP"> @Press Conference auditory of Buenos Aires, Argentina</h3>
             </div>
 
         </section>
@@ -110,8 +111,45 @@
             <h3 class="featuredSubTitle">Featured Speakers</h3>
             <img class="underline" src="img/text/underline.svg" alt="underline">
 
-            <div class="gridContainer">
-                <div class="div1 cardContainer">
+            <div  class="gridContainer">
+           
+            </div>
+
+            <button id="more">MORE <img id="orangeArrow" src="img/text/orangeArrow.svg" alt="Orange Arrow"></button>
+        </section>
+
+        <section id="partner">
+            <h3 class="featuredSubTitle" id="partnerTitle">Partner</h3>
+            <img class="underline" src="img/text/underline.svg" alt="underline">
+
+            <ul id="partnerListContainer">
+                <li class="partnerList"><img src="img/logos/mozilla.svg" alt="Mozilla"></li>
+                <li class="partnerList"><img src="img/logos/google.svg" alt="Google"></li>
+                <li class="partnerList"><img src="img/logos/naver.svg" alt="Naver"></li>
+                <li class="partnerList"><img src="img/logos/daumkakao.svg" alt="Daumkakao"></li>
+                <li class="partnerList"><img src="img/logos/airbnb.svg" alt="AirBNB"></li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer id="footer">
+        <img id="footerLogo" src="img/logos/creativecommons.svg" alt="Creative Commons Korea">
+        <div id="footerText">
+            <h4 id="footerTitle">2015 Creative Commons Korea. Some Rights Reserved</h4>
+            <p id="footerP">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은
+                http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
+
+     <!-- <div class="div1 cardContainer">
                     <div class="cardPictureContainer"><img class="cardPicture" src="img/pictures/dude1.svg" alt=""></div>
                     <div>
                         <h2 class="cardTitle">Yochai Benkler</h2>
@@ -176,39 +214,4 @@
                             Wealth of Networks in 2006</p>
         
                     </div>
-                </div>
-            </div>
-
-            <button id="more">MORE <img id="orangeArrow" src="img/text/orangeArrow.svg" alt="Orange Arrow"></button>
-        </section>
-
-        <section id="partner">
-            <h3 class="featuredSubTitle" id="partnerTitle">Partner</h3>
-            <img class="underline" src="img/text/underline.svg" alt="underline">
-
-            <ul id="partnerListContainer">
-                <li class="partnerList"><img src="img/logos/mozilla.svg" alt="Mozilla"></li>
-                <li class="partnerList"><img src="img/logos/google.svg" alt="Google"></li>
-                <li class="partnerList"><img src="img/logos/naver.svg" alt="Naver"></li>
-                <li class="partnerList"><img src="img/logos/daumkakao.svg" alt="Daumkakao"></li>
-                <li class="partnerList"><img src="img/logos/airbnb.svg" alt="AirBNB"></li>
-            </ul>
-
-        </section>
-    </main>
-
-    <footer id="footer">
-        <img id="footerLogo" src="img/logos/creativecommons.svg" alt="Creative Commons Korea">
-        <div id="footerText">
-            <h4 id="footerTitle">2015 Creative Commons Korea. Some Rights Reserved</h4>
-            <p id="footerP">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은
-                http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
-        </div>
-    </footer>
-
-
-
-    <script src="/script.js"></script>
-</body>
-
-</html>
+                </div> -->
