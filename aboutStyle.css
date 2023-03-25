@@ -5,7 +5,6 @@
  }
 
  #menu {
-    position: relative;
  width: 100vw;
 display: flex;
 flex-direction: row;
@@ -30,13 +29,19 @@ background-image: url(img/backgrounds/mainsection.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: 250%;
-
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 #helloIntro {
 font-weight: 400;
 color: #EC4327;
 text-align: center;
+}
+
+.underline {
+display: none;
 }
 
 #h1Title {
@@ -156,8 +161,8 @@ font-family: 'Gothic A1', sans-serif;
     display: none;
 }
 
-.menuLinks {
-display: none;
+.menuLinks {/* 
+display: none; */
 }
 
 #ccGlobalPDesk {
@@ -316,7 +321,12 @@ justify-content: center;
 color: #EC4327;
     }
     
-
+    .underline {
+        display: flex;
+        width: 3rem;
+        align-items: center;
+        margin: 1rem;
+    }
 
     #ccGlobalPDesk {
         display: flex;
@@ -406,6 +416,7 @@ margin-left: 20%;
 
 #footerLogoDesk {
     margin-right: 5%;
+    display: flex;
 }
 
 #footerLogo {
