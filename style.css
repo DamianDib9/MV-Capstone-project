@@ -4,6 +4,45 @@
   font-family: 'Lato', sans-serif;
 }
 
+#popupContainer {
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/backgrounds/mainsection.png);
+    position: fixed;
+    z-index: 500;
+  }
+
+  .popupButtonList {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    }
+
+    .popMenuLinks {
+margin-bottom: 2rem;
+color: #141d32;
+    }
+
+    .popMenuLinks:hover {
+        margin-bottom: 2rem;
+        color: #ec4327;
+            }
+
+  #crossButton {
+   position: fixed;
+   right: 0;
+   top: 0; 
+   height: 1.5rem;
+   padding: 1rem;
+    
+  }
+
 #menu {
   position: relative;
   width: 100vw;
@@ -245,6 +284,10 @@
   .gridContainer {
     display: grid;
     width: 75%;
+  }
+
+  #popupContainer {
+    display: none;
   }
 
 

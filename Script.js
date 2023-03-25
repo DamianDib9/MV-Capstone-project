@@ -1,3 +1,41 @@
+// When the menu button is clicked, display the pop-up navigation
+document.querySelector('#menuButton').onclick = function () {
+  const popUpNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'flex';
+};
+
+// When the cross button is clicked, hide the pop-up navigation
+document.querySelector('#crossButton').onclick = function () {
+  const popOutNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'none';
+};
+
+// When the cross button is clicked, hide the pop-up navigation
+document.querySelector('#aboutPopLink').onclick = function () {
+  const popOutNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'none';
+};
+// When the cross button is clicked, hide the pop-up navigation
+document.querySelector('#programPopLink').onclick = function () {
+  const popOutNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'none';
+};
+// When the cross button is clicked, hide the pop-up navigation
+document.querySelector('#joinPopLink').onclick = function () {
+  const popOutNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'none';
+};
+// When the cross button is clicked, hide the pop-up navigation
+document.querySelector('#sponsorsPopLink').onclick = function () {
+  const popOutNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'none';
+};
+// When the cross button is clicked, hide the pop-up navigation
+document.querySelector('#newsPopLink').onclick = function () {
+  const popOutNav = document.querySelector('#popupContainer');
+  popupContainer.style.display = 'none';
+};
+
 const profileCards = [
   {
     picture: '/img/pictures/dude1.png',
