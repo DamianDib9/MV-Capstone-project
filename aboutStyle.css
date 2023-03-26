@@ -13,7 +13,7 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
-  background-image: url(img/backgrounds/mainsection.png);
+  background-image: url(./img/backgrounds/mainsection.png);
   position: fixed;
   z-index: 500;
 }
@@ -83,7 +83,7 @@
 }
 
 #introContainer {
-  background-image: url(img/backgrounds/mainsection.png);
+  background-image: url(./img/backgrounds/mainsection.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250%;

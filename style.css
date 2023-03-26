@@ -13,7 +13,7 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
-  background-image: url(img/backgrounds/mainsection.png);
+  background-image: url(./img/backgrounds/mainsection.png);
   position: fixed;
   z-index: 500;
 }
@@ -75,11 +75,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  background-image: url(img/backgrounds/titlebackground.jpeg);
+  background-image: url(./img/backgrounds/titlebackground.jpeg);
 }
 
 #introContainer {
-  background-image: url(img/backgrounds/mainsection.png);
+  background-image: url(./img/backgrounds/mainsection.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250%;
@@ -121,7 +121,7 @@
 
 #mainProgram {
   width: 100vw;
-  background-image: url(img/backgrounds/gray.jpg);
+  background-image: url(./img/backgrounds/gray.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
