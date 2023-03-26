@@ -146,7 +146,6 @@ gitbash, github, github desktop.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Credits to Cindy Shin for sharing it's template!
 
 Contributions, issues, and feature requests are welcome.
 
@@ -164,6 +163,7 @@ If you like this project please share it with your friends.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Credits to Cindy Shin for sharing it's template!
 
 I would like to thank all of my family for helping me trough this Microverse course.
 
