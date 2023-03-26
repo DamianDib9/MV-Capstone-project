@@ -33,25 +33,25 @@ const profileCards = [
     cardTitle: 'Daniele De Rossi',
     cardSubtitle: 'Germany 2006 WC champion',
     cardsP: 'A great midfielder, lead Italy to won their 4th WC ',
-    divClass: 'div3 cardTrans',
+    divClass: 'div3 cardTrans cardHide',
   }, {
     picture: '/img/pictures/dude4.png',
     cardTitle: 'Cafu (Marcos E. de Morais)',
     cardSubtitle: 'Korea-Japan 2002 WC champion',
     cardsP: 'Captain o Brazil, lead his team to won their 5th world cup',
-    divClass: 'div4 cardTrans',
+    divClass: 'div4 cardTrans cardHide',
   }, {
     picture: '/img/pictures/dude5.png',
     cardTitle: 'Zinedine Zidane',
     cardSubtitle: 'France 1998 WC champion',
     cardsP: 'Captain of France, lead his team to won their first WC',
-    divClass: 'div5 cardTrans',
+    divClass: 'div5 cardTrans cardHide',
   }, {
     picture: '/img/pictures/dude6.png',
     cardTitle: 'Miroslav Klose',
     cardSubtitle: 'Brazil 2014 WC champion',
     cardsP: 'highest scorer of the WC, lead Germany to win their 4th title',
-    divClass: 'div6 cardTrans',
+    divClass: 'div6 cardTrans cardHide',
   }];
 
 const fillGridContainer = document.querySelector('.gridContainer');

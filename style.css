@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0;"
   margin: 0;
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
@@ -317,10 +317,18 @@
   display: none;
 }
 
+.cardHide {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .gridContainer {
     display: grid;
     width: 75%;
+  }
+
+  .cardHide {
+    display: flex;
   }
 
   #popupContainer {
