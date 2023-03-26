@@ -165,6 +165,10 @@ If you like this project please share it with your friends.
 
 Credits to Cindy Shin for sharing it's template!
 
+See the [Original design idea by Cindy Shin in Behance](https://linkedin.com/in/damian-dib-bustros-953577261)
+<br>
+You can also check the [Creative Commons license of the design](https://www.behance.net/adagio07)
+
 I would like to thank all of my family for helping me trough this Microverse course.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
