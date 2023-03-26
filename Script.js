@@ -1,40 +1,18 @@
-// When the menu button is clicked, display the pop-up navigation
-document.querySelector('#menuButton').onclick = function () {
-  const popUpNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'flex';
-};
+const logo = document.querySelector('.menuButton');
+const xButons = document.querySelector('.crossButton');
+const menu = document.querySelector('.popupContainer');
 
-// When the cross button is clicked, hide the pop-up navigation
-document.querySelector('#crossButton').onclick = function () {
-  const popOutNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'none';
-};
+logo.addEventListener('click', () => {
+  menu.style.display = 'flex';
+});
 
-// When the cross button is clicked, hide the pop-up navigation
-document.querySelector('#aboutPopLink').onclick = function () {
-  const popOutNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'none';
-};
-// When the cross button is clicked, hide the pop-up navigation
-document.querySelector('#programPopLink').onclick = function () {
-  const popOutNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'none';
-};
-// When the cross button is clicked, hide the pop-up navigation
-document.querySelector('#joinPopLink').onclick = function () {
-  const popOutNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'none';
-};
-// When the cross button is clicked, hide the pop-up navigation
-document.querySelector('#sponsorsPopLink').onclick = function () {
-  const popOutNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'none';
-};
-// When the cross button is clicked, hide the pop-up navigation
-document.querySelector('#newsPopLink').onclick = function () {
-  const popOutNav = document.querySelector('#popupContainer');
-  popupContainer.style.display = 'none';
-};
+xButons.addEventListener('click', () => {
+  menu.style.display = 'none';
+});
+
+document.querySelectorAll('.popupButtons').forEach((n) => n.addEventListener('click', () => {
+  menu.style.display = 'none';
+}));
 
 const profileCards = [
   {
