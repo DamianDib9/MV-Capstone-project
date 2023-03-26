@@ -1,15 +1,9 @@
 <a name="readme-top"></a>
 
-# 📖 [My Portfolio project] <a name="about-project"></a>
+# 📖 [My capstone project] <a name="about-project"></a>
 
 
-**[RWD portfolio]** is a web development project for Microverse in the week4 of  module 1.
-
-To see live demo [Click Here](https://damiandib9.github.io/averger/) <br>
-To see walktrough [Click Here](https://www.loom.com/share/e902921ee9bf4e0f98aba50ef0a9302b)
-
-
-
+**[RWD Capstone Project]** is a web development project for Microverse in the block 5 of  module 1.
 
 
 
@@ -36,10 +30,10 @@ To see walktrough [Click Here](https://www.loom.com/share/e902921ee9bf4e0f98aba5
 
 
 
-# 📖 [RWD Portfolio] <a name="about-project"></a>
+# 📖 [Capstone Project] <a name="about-project"></a>
 
 
-**[RWD Portfolio]** is a web development project for Microverse.
+**[My Capstone Project]** is a web development project for Microverse.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -63,9 +57,17 @@ To see walktrough [Click Here](https://www.loom.com/share/e902921ee9bf4e0f98aba5
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"> </a>
 
-- N/A
+- Mobile Version:
+<img src="./img/gif/mobile.gif">
+
+
+-See mobile version preview:
+<img src="./img/gif/desktop.gif">
+
+-See The Proyect deployment <a href="https://willowy-cupcake-fc3c8b.netlify.app/">Here</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +92,7 @@ In order to run this project you need:<br>
 Clone this repository to your desired folder:<br>
 
 cd my-folder
-  git clone git@github.com:DamianDib9/HelloWorld.git<br>
+  git clone https://github.com/DamianDib9/MV-Capstone-project.git
 
 
 ### Install
@@ -123,7 +125,7 @@ gitbash, github, github desktop.
 ## 👥 Author <a name="author"></a>
 
 
-👤 **Damian**
+👤 **Damian Dib Bustros**
 
 - GitHub: [@githubhandle](https://github.com/damiandib9)
 - Twitter: [@twitterhandle](https://twitter.com/devbustros)
@@ -144,7 +146,9 @@ gitbash, github, github desktop.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Credits to Cindy Shin for sharing it's template!
+
+Contributions, issues, and feature requests are welcome.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
