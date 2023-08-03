@@ -274,17 +274,6 @@
   line-height: 171%;
 }
 
-#more {
-  text-decoration: none;
-  margin-bottom: 4rem;
-  width: 90vw;
-  height: 2.2rem;
-  background-color: #fff;
-  border: 1px solid #c9c0f0;
-  border-radius: 4%;
-  font-weight: 700;
-}
-
 #grayUpperMenu {
   display: none;
 }
@@ -339,10 +328,6 @@
   }
 
   #joinButton {
-    display: none;
-  }
-
-  #more {
     display: none;
   }
 
