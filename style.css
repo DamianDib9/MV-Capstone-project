@@ -248,6 +248,7 @@
 .cardContainer {
   display: flex;
   gap: 15px;
+  margin-bottom: 1rem;
 }
 
 .cardTitle {
@@ -317,10 +318,6 @@
   display: none;
 }
 
-.cardHide {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .gridContainer {
     display: grid;
@@ -386,6 +383,7 @@
   }
 
   #mainLogo {
+    width: 2rem;
     margin-right: 15vw;
   }
 
