@@ -1,0 +1,471 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.popupContainer {
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/backgrounds/mainsection.png);
+  position: fixed;
+  z-index: 500;
+}
+
+.popupButtonList {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.popMenuLinks {
+  margin-bottom: 2rem;
+  color: #141d32;
+}
+
+.popMenuLinks:hover {
+  margin-bottom: 2rem;
+  color: #ec4327;
+}
+
+.crossButton {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 1.5rem;
+  padding: 1rem;
+}
+
+#menu {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
+}
+
+.menuButton {
+  padding-left: 1rem;
+}
+
+#imgTitle {
+  padding: 1rem 0 1rem 1rem;
+}
+
+#effectTitle {
+  width: 98%;
+}
+
+.menuLinks {
+  display: none;
+}
+
+.a-menuLink:hover {
+  transform: scale(1.1);
+  color: #ec4327;
+}
+
+.a-menuLink:link {
+  text-decoration: none;
+}
+
+.a-menuLink:visited {
+  text-decoration: none;
+}
+
+#introContainer {
+  background-image: url(./img/backgrounds/mainsection.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#helloIntro {
+  font-weight: 400;
+  color: #ec4327;
+  text-align: center;
+}
+
+.underline {
+  display: none;
+}
+
+#h1Title {
+  font-weight: 900;
+  color: #ec4327;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#introP {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.introPText {
+  font-size: 0.9rem;
+  margin: 1rem;
+  color: black;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: -0.05rem;
+}
+
+#introPTextDesktop {
+  display: none;
+}
+
+#dateLocationContainer {
+  padding: 1rem;
+}
+
+#letUsKnow {
+  color: #7a7a7a;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 20px;
+}
+
+#locationPabout {
+  font-size: 0.8rem;
+  color: #5f5f5f;
+  text-align: center;
+  padding: 0.5rem 0 2rem 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+#ccGlobalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ccGlobalTitle {
+  display: flex;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#partnerAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #414246;
+}
+
+#partnerTitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+#partnerListContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.partnerList {
+  margin: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.partnerListIcon {
+  width: 7rem;
+}
+
+#endTitle {
+  display: none;
+}
+
+#grayUpperMenu {
+  display: none;
+}
+
+#ccGlobalPDesk {
+  display: none;
+}
+
+#ccGlobalPMob {
+  margin: 0.6rem;
+  font-size: 1rem;
+  color: #838383;
+  text-align: center;
+  font-weight: 700;
+}
+
+#ccGlobalBigPic {
+  width: 100vw;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#ccGlobalSummits {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+#ccGlobalPsummits {
+  margin: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #838383;
+}
+
+#SeeThePast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#summitPics {
+  margin: 3rem;
+  width: 93%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerText {
+  width: 40%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#footerLogo {
+  width: 37%;
+  margin-right: 5%;
+  padding-bottom: 1rem;
+}
+
+#footerTitle {
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+#footerP {
+  font-weight: 700;
+  font-size: 0.6rem;
+  display: none;
+}
+
+#footerLogoDesk {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .gridContainer {
+    display: grid;
+    width: 75%;
+  }
+
+  /* ---NOT SHOWN IN DESKTOP VERSION--- */
+
+  #helloIntro {
+    display: none;
+  }
+
+  .menuButton {
+    display: none;
+  }
+
+  #joinButton {
+    display: none;
+  }
+
+  #more {
+    display: none;
+  }
+
+  /* ---NOT SHOWN IN DESKTOP VERSION--- */
+
+  #UpperMenu {
+    display: block;
+  }
+
+  #grayUpperMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10rem;
+    background-color: #3e3e3e;
+    height: 25px;
+    color: #efefef;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  #menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #menuLinksID {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #mainLogo {
+    margin-right: 15vw;
+  }
+
+  .menuLinks {
+    display: flex;
+    margin-left: 10%;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .a-menuLink {
+    display: flex;
+    margin-left: 10%;
+    cursor: pointer;
+    color: #272a31;
+    transition: 300ms ease-in-out;
+  }
+
+  #campaignButton {
+    font-weight: 800;
+    color: #ec4327;
+    padding: 0.7rem;
+    outline: 5px solid;
+    white-space: nowrap;
+  }
+
+  #introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+
+  #h1Title {
+    max-width: 55vw;
+  }
+
+  .introPText {
+    display: none;
+  }
+
+  #introPTextDesktop {
+    display: block;
+    width: 50vw;
+    font-size: 0.9em;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  #mainProgramTitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .underline {
+    display: flex;
+    width: 3rem;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  #break {
+    display: none;
+  }
+
+  #ccGlobalPMob {
+    display: none;
+  }
+
+  #ccGlobalPDesk {
+    margin: 0.6rem;
+    font-size: 0.9rem;
+    color: #838383;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  #ccGlobalBigPic {
+    width: 40%;
+    margin: 1rem;
+  }
+
+  #summitPics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  #partnerAbout {
+    display: none;
+  }
+
+  #footer {
+    background-color: #3e3e3e;
+  }
+
+  #footerLogoDesk {
+    margin-right: 5%;
+    display: flex;
+  }
+
+  #footerLogo {
+    display: none;
+  }
+
+  #footerTitle {
+    color: #efefef;
+  }
+
+  #footerP {
+    display: block;
+    color: #efefef;
+  }
+
+  /* --------------------------------------
+             ABOUT DESKTOP
+  --------------------------------------
+ */
+}
